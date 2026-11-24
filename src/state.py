@@ -1,6 +1,7 @@
 """Shared state models for the competitor-analysis LangGraph run."""
 
-from typing import Literal, TypedDict
+import operator
+from typing import Annotated, Literal, TypedDict
 
 from pydantic import BaseModel
 
@@ -45,7 +46,8 @@ class AgentState(TypedDict):
     competitors_approved: bool  # Whether a human approved the competitor list.
     raw_results: dict[str, CompetitorResults]  # Search results grouped by competitor name.
     facts: list[Fact]  # Sourced facts extracted from the search results.
-    review_flags: list[str]  # Notes about unsourced or weak claims.
-    errors: list[str]  # Notes about failed searches or model calls.
+    review_flags: Annotated[list[str], operator.add]  # Notes about unsourced or weak claims.
+    errors: Annotated[list[str], operator.add]  # Notes about failed searches or model calls.
     briefing: str  # The draft competitor briefing in Markdown.
     briefing_approved: bool  # Whether a human approved the draft briefing.
+    saved_path: str  # The path of the saved briefing file, empty until saved.

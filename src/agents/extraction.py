@@ -20,6 +20,14 @@ def extraction_node(state: AgentState) -> dict:
     errors: list[str] = []
 
     for competitor_name, competitor_results in state["raw_results"].items():
+        competitor_reason = next(
+            (
+                competitor.reason
+                for competitor in state["competitors"]
+                if competitor.name == competitor_name
+            ),
+            "No reason provided.",
+        )
         results = competitor_results.web + competitor_results.news
         source_urls = {result.url for result in results}
         formatted_results = "\n\n".join(
@@ -27,6 +35,13 @@ def extraction_node(state: AgentState) -> dict:
             for result in results
         )
         prompt = f"""Extract facts about {competitor_name} from the provided results.
+
+The analyzed company is {state["company"]}. {competitor_name} was selected because:
+{competitor_reason}
+Focus on {competitor_name}'s products and services that compete with the analyzed
+company as described in that reason. Prioritize facts about those overlapping products
+and services, but if the results say little about them, still extract the most relevant
+facts about {competitor_name}'s main products and services instead of returning nothing.
 
 Extract facts only in these categories: pricing, features, positioning, and news. Use
 ONLY information that appears in the provided results. Every fact must have a
@@ -46,16 +61,31 @@ Web and news results:
 
         try:
             fact_list = get_llm().with_structured_output(FactList).invoke(prompt)
+            facts_returned = len(fact_list.facts)
+            kept_facts = 0
+            dropped_unsourced = 0
             for fact in fact_list.facts:
                 if fact.source_url not in source_urls:
                     errors.append(f"dropped unsourced fact for {competitor_name}")
+                    dropped_unsourced += 1
                     continue
                 fact.competitor = competitor_name
                 facts.append(fact)
+                kept_facts += 1
         except Exception as error:
+            facts_returned = 0
+            kept_facts = 0
+            dropped_unsourced = 0
             errors.append(
                 f"fact extraction model call failed for {competitor_name}: "
                 f"{type(error).__name__}"
+            )
+
+        if kept_facts == 0:
+            errors.append(
+                f"no facts kept for {competitor_name}: {len(results)} search results, "
+                f"{facts_returned} facts returned by the model, "
+                f"{dropped_unsourced} dropped for unsourced url"
             )
 
     return {"facts": facts, "errors": errors}

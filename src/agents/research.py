@@ -11,27 +11,41 @@ def research_node(state: AgentState) -> dict:
     if not competitors:
         return {"raw_results": {}, "errors": ["no competitors to research"]}
 
+    company = state.get("company", "").strip()
     raw_results: dict[str, CompetitorResults] = {}
     errors: list[str] = []
 
     for competitor in competitors:
+        pricing_query = (
+            f"{competitor.name} pricing plans cost for products competing with {company}"
+            if company
+            else f"{competitor.name} pricing plans cost"
+        )
+        feature_query = (
+            f"{competitor.name} products features positioning versus {company}"
+            if company
+            else f"{competitor.name} products features positioning"
+        )
         pricing_results, pricing_error = search_web(
-            f"{competitor.name} pricing plans cost"
+            pricing_query
         )
         feature_results, feature_error = search_web(
-            f"{competitor.name} products features positioning"
+            feature_query
+        )
+        overview_results, overview_error = search_web(
+            f"{competitor.name} products features positioning overview"
         )
         news_results, news_error = search_news(f"{competitor.name} announcement")
 
         errors.extend(
             error
-            for error in (pricing_error, feature_error, news_error)
+            for error in (pricing_error, feature_error, overview_error, news_error)
             if error
         )
 
         seen_urls: set[str] = set()
         web_results = []
-        for result in pricing_results + feature_results:
+        for result in pricing_results + feature_results + overview_results:
             if result.url not in seen_urls:
                 seen_urls.add(result.url)
                 web_results.append(result)
@@ -40,6 +54,8 @@ def research_node(state: AgentState) -> dict:
             web=web_results,
             news=news_results,
         )
+        if not web_results and not news_results:
+            errors.append(f"no search results for {competitor.name}")
 
     return {"raw_results": raw_results, "errors": errors}
 

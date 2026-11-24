@@ -56,9 +56,14 @@ Give a verdict for every fact. Drop a fact if its source text does not support i
 it is in the wrong category, or if it repeats another fact. A pricing fact is wrong
 unless it concerns the price, fees, or pricing model of {competitor_name}'s own
 products or services; examples to drop include bond pricing, acquisition terms, and
-revenue. Otherwise keep the fact. Set weak_source to true when the source is a
-third-party blog, analysis site, or aggregator rather than {competitor_name}'s own
-site or a reputable news outlet. Give a short reason for each verdict.
+revenue. Judge ONLY against the provided source text; do not use your own knowledge,
+assumptions about which products or versions exist, or opinions about whether dates or
+launches are plausible. Keep a fact that the source text clearly states, even if it
+describes something unfamiliar or recent. Set weak_source to true only for blogs,
+aggregators, analysis or marketing-advice sites, forums, and video sites. Set it false
+for {competitor_name}'s own website, official press releases (including wire services
+such as BioSpace or PR Newswire), and established news outlets. Give a short reason
+for each verdict.
 
 Facts and source texts:
 {numbered_facts}
@@ -80,8 +85,11 @@ Facts and source texts:
                     )
 
                 if verdict.verdict == "drop":
+                    reason = verdict.reason
+                    if len(reason) > 160:
+                        reason = f"{reason[:157]}..."
                     review_flags.append(
-                        f"dropped {competitor_name} {fact.category}: {verdict.reason}"
+                        f"dropped {competitor_name} {fact.category}: {reason}"
                     )
                 else:
                     kept_facts.append(fact)

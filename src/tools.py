@@ -1,6 +1,9 @@
 """Tavily search helpers for competitor research."""
 
 import os
+import re
+from datetime import date
+from pathlib import Path
 
 from dotenv import load_dotenv
 from langchain_tavily import TavilySearch
@@ -65,6 +68,21 @@ def search_news(query: str) -> tuple[list[SearchResult], str | None]:
                 return [], f"news search failed for '{query}': {type(error).__name__}"
 
     return [], f"news search failed for '{query}': unknown error"
+
+
+# Saves an approved briefing as a dated Markdown file.
+def save_briefing(company: str, briefing: str) -> tuple[str, str | None]:
+    """Save a briefing file and return its path or a safe error message."""
+    try:
+        filename_company = re.sub(r"[^a-z0-9]+", "_", company.lower()).strip("_")
+        filename_company = filename_company or "briefing"
+        directory = Path("briefings")
+        directory.mkdir(parents=True, exist_ok=True)
+        path = directory / f"{filename_company}_{date.today().isoformat()}.md"
+        path.write_text(briefing, encoding="utf-8")
+        return str(path), None
+    except Exception as error:
+        return "", f"briefing save failed for '{company}': {type(error).__name__}"
 
 
 if __name__ == "__main__":
