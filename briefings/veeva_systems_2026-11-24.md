@@ -4,89 +4,88 @@ Date: 2026-11-24
 
 ## IQVIA
 Website: https://www.iqvia.com
-Reason: IQVIA is a leading global provider of clinical research services, data analytics, and information solutions for the life sciences industry, directly competing with Veeva in the healthcare and life sciences software and data services market.
+Reason: IQVIA is a direct competitor to Veeva Systems by offering clinical research services, data analysis, and information solutions for the life sciences and healthcare industries.
 
 ### Pricing
-- IQVIA's pricing structure is complex and often bundled with data and service contracts, with specific pricing not typically made public. ([source](https://www.revosuite.com/resources/guides/revo-veeva-vs-salesforce-iqvia-oce))
-- Public evidence does not support a comparable public view of IQVIA's pricing for its products and services. ([source](https://rxalmanac.com/articles/iqvia-vs-veeva))
+- IQVIA has a complex tiered licensing model often bundled with data and service contracts, and specific pricing is not typically public. ([source](https://www.revosuite.com/resources/guides/revo-veeva-vs-salesforce-iqvia-oce)) (weak source)
 
 ### Features
-- IQVIA offers Orchestrated Customer Engagement (OCE), a platform that organizes customer interactions and engagement in one place but has a steep learning curve and non-intuitive reporting. ([source](https://www.gartner.com/reviews/market/crm-in-life-sciences/compare/iqvia-vs-veeva))
-- IQVIA provides clinical products including eCOA, IRT, Clinical Data Analytics Solutions, and Planning Suite, integrated into a connected technology ecosystem. ([source](https://www.iqvia.com/solutions/technologies/partner-programs/iqvia-and-veeva-clinical-and-commercial-partnerships))
-- IQVIA launched Life Science Models and Explorer, AI-powered tools that help predict clinical trial outcomes and turn complex analytics into real-time intelligence. ([source](https://www.linkedin.com/posts/farhan-ashraf-146b6422_the-future-of-clinical-research-making-technology-activity-7520268753943789568-Wm5_)) (weak source)
+- IQVIA OCE has a long and steep learning curve, requires IT or outside help for customization, and its reporting is not always intuitive. ([source](https://www.gartner.com/reviews/market/crm-in-life-sciences/compare/iqvia-vs-veeva))
+- IQVIA offers clinical products including eCOA, IRT, Clinical Data Analytics Solutions, and Site Suite to support clinical trial operations. ([source](https://www.iqvia.com/solutions/technologies/partner-programs/iqvia-and-veeva-clinical-and-commercial-partnerships))
+- IQVIA integrates healthcare-grade AI and Connected Intelligence™ into its applications for conversational insights, decision support, and workflow assistance. ([source](https://www.iqvia.com/solutions/commercialization/commercial-analytics/pricing-and-market-access))
 
 ### Positioning
-- IQVIA positions itself as a provider of Connected Intelligence and Healthcare-grade AI, combining data, analytics, and technology to serve life sciences across clinical and commercial functions. ([source](https://www.iqvia.com))
-- IQVIA competes with Veeva in HCP and HCO reference data and commercial CRM integration, where organizational reliance on IQVIA data influences technology decisions. ([source](https://rxalmanac.com/articles/iqvia-vs-veeva))
-- IQVIA combines clinical research services, healthcare data, advanced analytics, and commercial solutions into a diversified business model serving the life sciences industry. ([source](https://finance.yahoo.com/sectors/healthcare/articles/veeva-vs-iqvia-life-sciences-151100061.html))
+- IQVIA combines healthcare data, advanced analytics, and contract research services to serve the life sciences industry with a diversified business model. ([source](https://finance.yahoo.com/sectors/healthcare/articles/veeva-vs-iqvia-life-sciences-151100061.html))
+- IQVIA is positioning healthcare-grade AI as part of its core product strategy, with live use cases in analytics, search, summarization, and clinical decision support. ([source](https://umbrex.com/resources/company-profiles/iqvia)) (weak source)
 
 ### News
-- IQVIA acquired Quotient Sciences in November 2026, adding Phase I clinical units, bioanalysis, and CDMO services to strengthen early clinical development capabilities. ([source](https://finance.yahoo.com/healthcare/articles/iqvia-announces-acquisition-quotient-sciences-120000328.html))
-- IQVIA launched IQVIA Life Science Models and IQVIA Explorer at TechIQ 2026 to help life sciences companies predict trial outcomes and make faster commercial decisions. ([source](https://www.linkedin.com/posts/farhan-ashraf-146b6422_the-future-of-clinical-research-making-technology-activity-7520268753943789568-Wm5_)) (weak source)
+- IQVIA acquired Quotient Sciences to strengthen its early clinical development capabilities and offer an integrated pathway from discovery to first-in-human studies. ([source](https://www.biospace.com/press-releases/iqvia-announces-acquisition-of-quotient-sciences))
+- IQVIA and Veeva Systems resolved years-long legal disputes and formed a partnership to integrate their clinical and commercial technologies. ([source](https://www.mobihealthnews.com/news/iqvia-veeva-systems-partner-and-resolve-years-long-legal-disputes))
+- IQVIA launched IQVIA Explorer and Life Science Models to help life sciences companies make better commercial and clinical decisions using predictive analytics. ([source](https://seekingalpha.com/symbol/IQV/press-releases))
 
 ## Medidata
 Website: https://www.medidata.com
-Reason: Medidata provides SaaS and data analytics solutions for clinical research, offering platforms that directly compete with Veeva's clinical and R&D offerings in the life sciences sector.
+Reason: Medidata provides SaaS and data analytics solutions for clinical research, directly competing with Veeva's clinical trial and data management offerings.
 
 ### Pricing
-- Medidata does not have a public price list for Rave EDC and provides custom quotes for enterprise clients. ([source](https://intuitionlabs.ai/articles/edc-software-pricing-2026)) (weak source)
-- Rave Lite offers 'adaptable' reduced pricing for Phase I/IV trials, indicating a tiered pricing structure based on trial phase and scale. ([source](https://intuitionlabs.ai/articles/edc-software-pricing-2026)) (weak source)
+Not found in the sources searched.
 
 ### Features
-- Medidata Rave EDC integrates with CTMS through connected handoffs from feasibility through startup, enabling streamlined trial workflows. ([source](https://casrai.org/compare/veeva-ctms-vs-medidata-ctms)) (weak source)
-- Medidata's AI, Dot, is trained on data from 42,000+ trials and 13 million patients to simulate outcomes and recommend next best actions. ([source](https://www.medidata.com/en))
-- Medidata Synthetic Control Arm® uses historical trial data to create real-world evidence, enabling single-arm trial contextualization without placebo groups. ([source](https://www.facebook.com/MedidataSolutions/posts/breaking-news-medidatas-synthetic-control-arm-sca-has-been-named-the-real-world-/1729624672507771))
+- Rave EDC aggregates and reconciles data from eConsent, eCOA, RTSM, and imaging within a unified platform. ([source](https://mahalo.health/insights/veeva-vault-alternatives-clinical-trials)) (weak source)
+- Medidata's platform includes AI-powered tools like Synthetic Control Arm, predictive analytics, and trial design support based on data from over 42,000 trials and 13 million patients. ([source](https://www.medidata.com/en))
+- Medidata offers integrated CTMS with explicit feasibility-through-startup workflows and connected handoffs from feasibility to study startup. ([source](https://casrai.org/compare/veeva-ctms-vs-medidata-ctms)) (weak source)
 
 ### Positioning
-- Medidata positions itself as an enterprise solution for large pharma and global Phase II to IV trials, with the largest install base in the EDC market. ([source](https://intuitionlabs.ai/articles/edc-software-pricing-2026)) (weak source)
-- Medidata is recognized as a Leader in Worldwide Life Sciences R&D RWD/RWE by IDC MarketScape for its AI-driven real-world data and evidence ecosystem. ([source](https://www.3ds.com/newsroom/press-releases/medidata-named-idc-marketscapetm-leader-worldwide-life-sciences-rd-rwd/rwe-data-platforms-technology-solutions-and-consulting-services))
-- Medidata is the chosen technology for FDA novel drug approvals, reinforcing its position as a trusted platform in regulated clinical development. ([source](https://www.medidata.com/en))
+- Medidata is positioned as a comprehensive, enterprise-grade solution best suited for large global drug programs, especially those requiring central imaging or endpoint adjudication. ([source](https://mahalo.health/insights/veeva-vault-alternatives-clinical-trials)) (weak source)
+- Medidata is recognized as a Leader in Worldwide Life Sciences R&D RWD/RWE Data Platforms by IDC MarketScape for its AI-driven real-world data and evidence generation capabilities. ([source](https://www.3ds.com/newsroom/press-releases/medidata-named-idc-marketscapetm-leader-worldwide-life-sciences-rd-rwd/rwe-data-platforms-technology-solutions-and-consulting-services))
+- Medidata operates as an integrated ecosystem with data capture, CTMS, safety, payments, analytics, and AI in one governed environment to reduce fragmentation and improve traceability. ([source](https://www.medidata.com/en/clinical-trial-products/unified-platform))
 
 ### News
-- In May 2025, Medidata launched Medidata Protocol Optimization, an AI-based solution for clinical trial design as part of its Study Experience product line. ([source](https://www.marketsandmarkets.com/ResearchInsight/eclinical-solutions-market.asp)) (weak source)
-- In November 2026, Medidata’s Synthetic Control Arm® was named 'RWE Solution of the Year' by the BioTech Breakthrough Awards. ([source](https://www.medidata.com/en/about-us/news-and-press/biotech-breakthrough-awards-names-medidatas-synthetic-control-arm-rwe-solution-of-the-year-for-transforming-patient-equity-in-clinical-trials))
+- In November 2026, Medidata’s Synthetic Control Arm® was named 'Real World Evidence (RWE) Solution of the Year' at the BioTech Breakthrough Awards. ([source](https://www.medidata.com/en/about-us/news-and-press/biotech-breakthrough-awards-names-medidatas-synthetic-control-arm-rwe-solution-of-the-year-for-transforming-patient-equity-in-clinical-trials))
+- Medidata’s AI-powered Synthetic Control Arm® was used to contextualize a single-arm Phase 2 trial for Aucatzyl in B-cell precursor acute lymphoblastic leukemia, supporting regulatory evaluation by the EMA. ([source](https://www.medidata.com/en/about-us/news-and-press/biotech-breakthrough-awards-names-medidatas-synthetic-control-arm-rwe-solution-of-the-year-for-transforming-patient-equity-in-clinical-trials))
 
-## OpenText
-Website: https://www.opentext.com
-Reason: OpenText offers enterprise information management and cloud software solutions, including Documentum which competes with Veeva Vault in content and document management for regulated life sciences industries.
+## Exeevo
+Website: https://www.exeevo.com
+Reason: Exeevo offers next-generation cloud CRM solutions tailored for the life sciences industry, positioning it as a direct alternative to Veeva's CRM and Vault platforms.
 
 ### Pricing
-- OpenText pricing for enterprise deployments typically ranges from $250,000 to $1,000,000+ in the first year, covering licenses, implementation, integrations, and training. ([source](https://www.vendr.com/marketplace/opentext)) (weak source)
-- OpenText Service Management Express starts at $79 per agent per month, while Premium starts at $99 per agent per month. ([source](https://www.motadata.com/blog/opentext-pricing)) (weak source)
-- OpenText Universal Discovery is priced from $1.25 per server per month. ([source](https://www.motadata.com/blog/opentext-pricing)) (weak source)
+- Exeevo charges $78.33 per user per month, which is lower than Veeva's $142.22 per user per month. ([source](https://www.exeevo.com/resources/blog/exeevo-crm-versus-veeva-vault))
+- Exeevo offers a unified subscription model with one license covering the entire life sciences suite, eliminating separate module licensing fees. ([source](https://intuitionlabs.ai/articles/exeevo-crm-life-sciences-analysis)) (weak source)
 
 ### Features
-- OpenText TeamSite is a content management solution designed for personalized, rich web experiences. ([source](https://www.cuspera.com/compare/veeva-vault-vs-opentext-teamsite/1352/4286)) (weak source)
-- OpenText Content Aviator uses AI for intelligent content management and includes an AI assistant to power work. ([source](https://www.opentext.com/products/listing))
+- Exeevo CRM includes built-in life sciences compliance features for Part 11, GDPR, PIPL, and Sunshine Act. ([source](https://www.exeevo.com/why-exeevo))
+- Exeevo is built natively on Microsoft Dynamics 365 and Dataverse, enabling native integration with Microsoft platforms. ([source](https://www.exeevo.com/why-exeevo))
+- Exeevo includes an embedded AI agent called Ask-Nova and offers AI-powered next-best-action capabilities across the platform. ([source](https://apply.workable.com/valsoft-corp/j/8F25AD8453)) (weak source)
 
 ### Positioning
-- OpenText positions itself as a global secure information management provider with integrated solutions for content management, AI, cybersecurity, and cloud. ([source](https://www.gartner.com/reviews/market/devops-platforms/vendor/opentext))
-- OpenText emphasizes AI-ready content management with built-in security and compliance for regulated industries. ([source](https://www.opentext.com/products/listing))
-- OpenText structures its offerings in modular suites across content management, digital experience, business network, cybersecurity, and analytics. ([source](https://www.vendr.com/marketplace/opentext)) (weak source)
+- Exeevo positions itself as a cost-effective and user-friendly alternative to established CRM platforms in the life sciences industry. ([source](https://www.netnetweb.com/content/blog/veeva-pirating-the-seas-of-the-life-sciences-industry)) (weak source)
+- Exeevo aims to simplify the technology stack and lower total cost of ownership for life sciences companies using its unified CRM suite. ([source](https://www.linkedin.com/company/exeevo))
 
 ### News
-- OpenText launched OpenText Communications Accelerator for BillingCenter in June 2026, completing integration with Guidewire InsuranceSuite. ([source](https://blogs.opentext.com/whats-new-in-opentext-exstream)) (weak source)
-- OpenText CEO Ayman Antoun announced fiscal 2027 as a reinvestment year, with $100 million to $200 million allocated to rebuild the sales engine. ([source](https://www.earningswhispers.com/article/OTEX/22161)) (weak source)
-- OpenText acquired Pillr in May 2024 to enhance its product portfolio. ([source](https://tavily.com/knowledge/company/qE9FJlyEn7ya)) (weak source)
+- Exeevo raised $20 million in a venture round on January 9, 2020, with Syneos Health as an investor. ([source](https://tavily.com/knowledge/company/xZd0gSpocJlX)) (weak source)
+- Exeevo has deployed its CRM to 5,500 users at Sanofi, indicating enterprise-scale adoption. ([source](https://intuitionlabs.ai/articles/exeevo-crm-life-sciences-analysis)) (weak source)
 
 ## Review notes
-- weak source https://www.linkedin.com/posts/farhan-ashraf-146b6422_the-future-of-clinical-research-making-technology-activity-7520268753943789568-Wm5_: opinion or third-party site
-- weak source https://www.linkedin.com/posts/iqvia_we-are-pleased-to-announce-new-long-term-activity-7363200160337694723-N_5D: opinion or third-party site
-- dropped IQVIA news: The source text does not mention any partnership between IQVIA and Veeva or resolution of a legal dispute; it discusses Veeva's strategy and market position ...
+- weak source https://assemblestudio.com/iqvia-vs-veeva-comparing-pharmas-top-platforms: opinion or third-party site
+- dropped IQVIA pricing: The source text claims IQVIA OCE costs $3,000, but this is from a third-party comparison blog (assemblestudio.com), which is not a reliable source for offici...
+- weak source https://www.revosuite.com/resources/guides/revo-veeva-vs-salesforce-iqvia-oce: opinion or third-party site
+- dropped IQVIA positioning: This fact repeats fact 5. Both describe IQVIA positioning itself around Healthcare-grade AI and Connected Intelligence™ for analytics and decision support. T...
+- weak source https://umbrex.com/resources/company-profiles/iqvia: opinion or third-party site
 - weak source https://intuitionlabs.ai/articles/edc-software-pricing-2026: opinion or third-party site
-- weak source https://inpractise.com/articles/veeva-vs-medidata: opinion or third-party site
-- dropped Medidata pricing: The source mentions Medidata charges a premium due to refactoring, but the source is a partial transcript behind a paywall and lacks full context; it is also...
+- dropped Medidata pricing: The source is a third-party analyst blog (IntuitionLabs), which qualifies as a marketing-advice/analysis site. Although the fact is about Medidata's pricing ...
+- dropped Medidata pricing: Same source as fact 1 (IntuitionLabs), which is a third-party analyst blog. The claim about Rave Lite's 'adaptable' lower-cost structure is not made by Medid...
+- dropped Medidata pricing: Same source (IntuitionLabs), which is a third-party analyst blog. The estimated cost ranges are modeled scenarios, not official Medidata pricing. These are p...
+- weak source https://mahalo.health/insights/veeva-vault-alternatives-clinical-trials: opinion or third-party site
 - weak source https://casrai.org/compare/veeva-ctms-vs-medidata-ctms: opinion or third-party site
 - weak source https://www.marketsandmarkets.com/ResearchInsight/eclinical-solutions-market.asp: opinion or third-party site
-- weak source https://yespress.io/zackary-king: opinion or third-party site
-- dropped Medidata news: The fact concerns acquisition terms (price and announcement), which are not pricing facts about Medidata's own products or services. It belongs in a differen...
-- weak source https://www.vendr.com/marketplace/opentext: opinion or third-party site
-- weak source https://www.motadata.com/blog/opentext-pricing: opinion or third-party site
-- dropped OpenText features: Source text does not mention Veeva Vault or any competitive positioning between Documentum and Veeva Vault. The fact introduces external competitive context ...
-- weak source https://www.cuspera.com/compare/veeva-vault-vs-opentext-teamsite/1352/4286: opinion or third-party site
-- weak source https://blogs.opentext.com/whats-new-in-opentext-exstream: opinion or third-party site
-- weak source https://www.earningswhispers.com/article/OTEX/22161: opinion or third-party site
-- weak source https://tavily.com/knowledge/company/qE9FJlyEn7ya: opinion or third-party site
+- dropped Medidata news: The source (marketsandmarkets.com) is a market research firm that provides industry analysis. The claim about the May 2025 launch of Medidata Protocol Optimi...
+- dropped Exeevo pricing: The source text states 'Exeevo CRM: $4,2 million per year', but this is presented in a comparative cost analysis with Veeva and based on 5,500 users. However...
+- weak source https://intuitionlabs.ai/articles/exeevo-crm-life-sciences-analysis: opinion or third-party site
+- weak source https://apply.workable.com/valsoft-corp/j/8F25AD8453: opinion or third-party site
+- weak source https://www.netnetweb.com/content/blog/veeva-pirating-the-seas-of-the-life-sciences-industry: opinion or third-party site
+- dropped Exeevo positioning: While the source mentions Exeevo's life sciences focus and compliance, it does not explicitly state that Exeevo 'enables unified customer experiences for sal...
+- weak source https://tavily.com/knowledge/company/xZd0gSpocJlX: opinion or third-party site
+- dropped Exeevo news: The source is a third-party knowledge base (Tavily), which aggregates data. The acquisition date '2024-12-11' is in the future relative to current knowledge ...
 
 ## Run issues
 None
