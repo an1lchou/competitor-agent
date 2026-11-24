@@ -75,4 +75,3 @@ if __name__ == "__main__":
     for result in search_news("Veeva Systems")[0]:
         print(result.title)
         print(result.url)
-;
